@@ -1,0 +1,23 @@
+1. The pwd command will allow you to know what your absolute path is.
+2. The ls command will allow you to view all of the directoreis and files inside of ~/music/. Two files, patterns.txt and symmetry.py, will be listed.
+3. The nano patterns.txt command allows you to open patterns.txt and edit the file.
+4. The cat command will alow you to print the file on your terminal.
+5. The command diff patterns.txt symmetry.txt will allow you to see the difference between the two files.
+6. The command mv ~/music/patterns.txt ~/math/calculus/patterns.txt lets you move patterns.txt to the calculus directory.
+7. The command rm ~/math/geometry/trianagle.txt allows you to remove triangle.txt.
+8. The command rm ~/math/geometry/trianagle.txt allows you to remove triangle.txt.
+9. The git init command would make math/ a local git repository.
+10. To  connect a local math/ repository with a remote math/ repository, the git remote add origin command can be used.
+11. To  connect a local math/ repository with a remote math/ repository, the git remote add origin command can be used.
+12. The git status command will show the current state of your working directory and staging area. Git is not currently tracking symmetry.txt, as it has not been added to the staging area yet.
+13. The command git add symmetry.txt will add the copy of symmetry.txt to the staging area. The command git add -all will al all changes to all files and directories to the staging area.
+14. Once symmetry.txt is in the staging area, git is tracking it. To unstage symmetry.txt, the git reset symmetry.txt command can be used.
+15. To commit staged files to the local repository, the command git commit -m "Commit Message" can be used.
+16. The command git push should be used to push your local repository to your remote repository. You should push to the branch you are working in to ensure your changes are saved to the right location.
+17. To make a new branch off of math/ called applied math, the command git branch applied math can be used.
+18. To move into the applied math branch, the command git checkout applied math branch can be used.
+19. To push all of these changed to the remote repository, the command git push origin main can be used. If you attempted to switch back to your original branch before committing these changes,
+you will lose your uncommitted changes.
+20. The git branch command will list all of your branches. The branch currently highlighted in green is the branch you're in.
+21. Git checkout main will allow you to move back to your original branch.
+22. Git merge applied branch will allow you to combine applied math with the main branch, assuming you are already in the main branch.
